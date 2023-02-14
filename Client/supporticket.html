@@ -106,7 +106,7 @@
     <!--------------->
     <div class="row ">
         <div class="col-sm-6">
-          <div class="card">
+          <div class="card border-light">
             <div class="card-body">
                 <div class="col-lg-12">
                     <div class="form-floating">
@@ -127,8 +127,8 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="card">
+        <div class="col-sm-6 ">
+          <div class="card border-light">
             <div class="card-body">
                 <div class="col-lg-12">
                     <div class="form-floating">
@@ -138,7 +138,7 @@
                     </div>
                   </div>
                   <!--------------->
-                  <div class="col-lg-12">
+                  <div class="col-lg-12 border-light">
                     <div class="form-floating">
                 
                      <label for="floatingInputGrid">Priority</label>
@@ -153,15 +153,16 @@
             </div>
           </div>
           </div>
+          <br>
           <div class="col-lg-13">
-            <div class="card">
-              <div class="card-body">
+            <div class="card border-light">
+              <div class="card-body ">
                   <div class="col-lg-12">
                       <div class="form-floating">
                         <label for="floatingInputGrid">Message </label><br>
 
-                        <textarea name="" placeholder="" rows="7" cols="150"></textarea>
-                       </div>
+                        <textarea class="form-control" name="" id="floatingTextarea" placeholder="" style="height: 100px"></textarea>
+                      </div>
                        
                      </div>
                      <!------------->
@@ -169,7 +170,7 @@
                         <div class=""form-floating">
                     
                          <label for="floatingInputGrid">Attachments</label>       
-                         <input class=" form-control" type="file" id="formFile" >
+                         <input class=" form-control border-light" type="file" id="formFile" >
                          Allowed File Extensions: .jpg,.jpeg,.png,.pdf,.doc,.docx
                         </div>
                         <br>
@@ -250,12 +251,13 @@ Copyright © 2021:
 </body>
    <style>
      body{
-       padding:10px 20px 0px 20px;
+       padding:10px 15px 0px 20px;
         background-color:#212121;
         color:white;
         font-size: smaller;
     
      }
-
+    
+  
    </style>
 </html>

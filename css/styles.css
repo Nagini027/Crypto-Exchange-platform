@@ -33,8 +33,6 @@ height: 130vh;
 }
 
 
-
-
 :root{
     --offcanvas-width:200px;
    --topNavbarHeight : 56px;
@@ -67,3 +65,20 @@ height: 130vh;
         height: calc(150% - var(--topNavbarHeight));
     }
 }
+@media (min-width: 768px) {
+    .nav {
+      background-color: red;
+      color: white;
+    }
+  }
+  
+  /* Media query for screens 1200px and larger */
+  @media (min-width: 1200px) {
+    .nav {
+      background-color: green;
+      color: white;
+    }
+  }
+  
+  
+  
